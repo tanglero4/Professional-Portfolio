@@ -4,21 +4,24 @@ function Navigation() {
     return (
     <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-    <a class="navbar-item" href="/">
-      <img src="" width="112" height="28"/>
+    <a class="navbar-item has-text-primary header" href="/">
+      <h1>Tiffany Anglero</h1>
     </a>
   
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-        <span aria-hidden="true">About</span>
-        <span aria-hidden="true">Projects</span>
+        <span aria-hidden="true">About Me</span>
+        <span aria-hidden="true">Portfolio</span>
         <span aria-hidden="true">Contact</span>
       </a>
     </div>
   
     <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-start">
+      <div class="navbar-end">
         <a class="navbar-item">
-          Home
+            <span class="icon">
+    <i class="fas fa-info-circle"></i>
+  </span>
+         <i icon="fa-light fa-address-card" /> Home
         </a>
   
         <a class="navbar-item">
@@ -32,14 +35,14 @@ function Navigation() {
   
           <div class="navbar-dropdown">
             <a class="navbar-item">
-              Projects
+              Portfolio
             </a>
             <a class="navbar-item">
               Contact
             </a>
             {/* <hr class="navbar-divider"> */}
             <a class="navbar-item">
-              Report an issue
+              Resume
             </a>
           </div>
         </div>
