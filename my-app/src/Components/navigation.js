@@ -1,57 +1,48 @@
 import React from 'react';
 
-function Navigation() {
-    return (
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-    <a class="navbar-item has-text-primary header" href="/">
-      <h1>Tiffany Anglero</h1>
-    </a>
-  
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-        <span aria-hidden="true">About Me</span>
-        <span aria-hidden="true">Portfolio</span>
-        <span aria-hidden="true">Contact</span>
-      </a>
-    </div>
-  
-    <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-end">
-        <a class="navbar-item">
-            <span class="icon">
-    <i class="fas fa-info-circle"></i>
-  </span>
-         <i icon="fa-light fa-address-card" /> Home
-        </a>
-  
-        <a class="navbar-item">
+function Navigation({ thisPage, tabChange }) {
+  return (
+    <ul className="nav nav-tabs">
+      <li className="nav-item">
+        <a
+          href="#about"
+          onClick={() => tabChange('About')}
+          className={thisPage === 'About' ? 'nav-link active' : 'nav-link'}
+        >
           About
         </a>
-  
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            More
-          </a>
-  
-          <div class="navbar-dropdown">
-            <a class="navbar-item">
-              Portfolio
-            </a>
-            <a class="navbar-item">
-              Contact
-            </a>
-            {/* <hr class="navbar-divider"> */}
-            <a class="navbar-item">
-              Resume
-            </a>
-          </div>
-        </div>
-      </div>
-  
-      </div>
-  </nav>    
-   
-   )
-   }
-  
-  export default Navigation;
+      </li>
+      <li className="nav-item">
+        <a
+          href="#portfolio"
+          onClick={() => tabChange('Portfolio')}
+          className={thisPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+        >
+          Portfolio
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#contact"
+          onClick={() => tabChange('Contact')}
+          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={thisPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#resume"
+          onClick={() => tabChange('Resume')}
+          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={thisPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a>
+      </li>
+    </ul>
+  );
+}
+
+export default Navigation;

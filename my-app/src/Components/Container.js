@@ -5,8 +5,8 @@ import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 
-export default function PortfolioContainer() {
-  const [thisPage, setThisPage] = useState('Home');
+export default function Container() {
+  const [thisPage, setThisPage] = useState('About');
   const showPage = () => {
     if (thisPage === 'About') {
       return <About />;
