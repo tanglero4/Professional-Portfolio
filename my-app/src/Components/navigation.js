@@ -5,7 +5,7 @@ function Navigation({ thisPage, tabChange }) {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
-          href="#about"
+          href="#About"
           onClick={() => tabChange('About')}
           className={thisPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
@@ -14,7 +14,7 @@ function Navigation({ thisPage, tabChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#portfolio"
+          href="#Portfolio"
           onClick={() => tabChange('Portfolio')}
           className={thisPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >

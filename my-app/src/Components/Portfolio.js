@@ -1,22 +1,22 @@
-import React from 'react';
-import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import React ,{useState} from 'react';
+import {Row, Col, Card} from 'react-bootstrap';
+import data from './portfolio.json';
 
 function Portfolio() {
+  const [portfolioData, setPortfolioData] = useState(data)
   return (
 
     <Row xs={1} md={2} className="g-4">
-        {Array.from({ length: 4 }).map((_, idx) => (
-          <Col>
+        {data.map((item, idx) => (
+          <Col key={idx}>
     <Card className="bg-dark text-white">
-      <Card.Img src="holder.js/100px270" alt="Card image" />
+      <Card.Img src={`assets/images/${item.image}`} alt="Card image" />
       <Card.ImgOverlay>
-        <Card.Title>Project name</Card.Title>
+        <Card.Title>{item.title}</Card.Title>
         <Card.Text>
-          What its about and programs used
+          {item.description}
         </Card.Text>
-        <Card.Text>github logo and link</Card.Text>
+        <Card.Text>     </Card.Text>
       </Card.ImgOverlay>
     </Card>
     </Col>))}
@@ -25,31 +25,4 @@ function Portfolio() {
         }
 export default Portfolio;
 
-    // <Card className="bg-dark text-white">
-    //   <Card.Img src="holder.js/100px270" alt="Card image" />
-    //   <Card.ImgOverlay>
-    //     <Card.Title>Project name</Card.Title>
-    //     <Card.Text>
-    //       What its about and programs used
-    //     </Card.Text>
-    //     <Card.Text>github logo and link</Card.Text>
-    //   </Card.ImgOverlay>
-    // </Card>);
-    //     <Row xs={1} md={2} className="g-4">
-    //     {Array.from({ length: 4 }).map((_, idx) => (
-    //       <Col>
-    //         <Card>
-    //           <Card.Img variant="top" src="holder.js/100px160" />
-    //           <Card.Body>
-    //             <Card.Title>Card title</Card.Title>
-    //             <Card.Text>
-    //               This is a longer card with supporting text below as a natural
-    //               lead-in to additional content. This content is a little bit
-    //               longer.
-    //             </Card.Text>
-    //           </Card.Body>
-    //         </Card>
-    //       </Col>
-    //     ))}
-    //   </Row>
-    // );
+    

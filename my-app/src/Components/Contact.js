@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
 
-function Contact() {
+export default function Contact() {
   return (
     <div>
       <h1>Contact Me</h1>
@@ -28,5 +28,3 @@ function Contact() {
     </div>
   );
 }
-
-export default Contact;
