@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family:monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(218, 215, 205);
+  padding: 3vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.form{
+  margin: 30px 50px;
+}
+a#footerLink{
+  text-decoration: none;
+}
+#name{
+  padding-right:120vh;
+}
+  #header{
+    padding: 6vh;
+      background-image: url("https://images.unsplash.com/photo-1678267361423-dbe60452dc4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80");
+  }
+  #nav{
+    padding-top: 2vh;
+  }
+  #title{
+      font-size: 70px;
+      font-weight: bold;
+      color: #2f3e46;
+  }
+  #info{
+      padding: 100px;
+      font-size: 2rem;
+      color: #354f52;
+  }
+  #footer{
+    height: 50px;
+    margin-top: -50px;
+      font-size: 14px;
+      color:rgba(163, 177, 138);
+      text-align: center;
+  }
+  Div#icon{
+    font-size: 100px;
+    text-align: center;
+  }
+
+  #card  {border-radius: 4px;
+  padding: 5px;
+}
+#projectName{
+  font-size: 34px;
+  color: rgba(58, 90, 64);
+}
+#projects{
+  margin:50px;
+}
+a#projectLink, a.nav-link{
+  text-decoration: none;
+  color: rgba(52, 78, 65);
+}
+Div#title{
+  color:red;
+}
+#resume{
+  font-size: 100px;
+  text-align: center;
+  color: rgba(88, 129, 87);
+}
