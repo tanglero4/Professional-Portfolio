@@ -20,7 +20,7 @@ a, #footerLink{
   padding-right:130vh;
 }
   #header{
-    padding: 10vh;
+    padding: 6vh;
       background-image: url("https://images.unsplash.com/photo-1678267361423-dbe60452dc4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80");
   }
   #nav{
@@ -42,9 +42,9 @@ a, #footerLink{
       font-size: 14px;
       color:rgba(163, 177, 138);
   }
-  #icon{
+  Div#icon{
     font-size: 100px;
-    padding-right: 50px;
+    text-align: center;
   }
 
   #card  {border-radius: 4px;
