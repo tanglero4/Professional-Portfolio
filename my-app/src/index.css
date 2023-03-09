@@ -4,6 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgba(218, 215, 205);
+  padding: 3vh;
 }
 
 code {
@@ -17,7 +18,7 @@ a, #footerLink{
   text-decoration: none;
 }
 #name{
-  padding-right:130vh;
+  padding-right:120vh;
 }
   #header{
     padding: 6vh;
@@ -52,8 +53,17 @@ a, #footerLink{
 }
 #projectName{
   font-size: 34px;
-  color: rgba(218, 215, 205);
+  color: rgba(58, 90, 64);
 }
 #projects{
   margin:50px;
+}
+a#projectLink{
+  text-decoration: none;
+  color: rgba(52, 78, 65);
+}
+#resume{
+  font-size: 100px;
+  text-align: center;
+  color: rgba(88, 129, 87);
 }

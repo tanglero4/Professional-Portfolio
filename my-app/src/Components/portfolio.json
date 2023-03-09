@@ -3,29 +3,29 @@
         "id": 1,
         "title": "Panda Critic",
         "image": "project1.jpeg",
-        "description": "Lorem lorem lorem",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "link":"https://github.com/JStavey13/PandaCritic"
     },
     {
         "id": 2,
         "title": "Fit Resolution",
         "image": "project2.jpeg",
-        "description": "Lorem lorem lorem",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "link":"https://github.com/JonJon50/Fit-Resolution"
     },
     {
         "id": 3,
-        "title": "Project 3",
+        "title": "urna nec",
         "image": "project3.jpeg",
-        "description": "Lorem lorem lorem",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "link":""
     }
     ,
     {
         "id": 4,
-        "title": "Project 4",
+        "title": "aliquet bibendum",
         "image": "project3.jpeg",
-        "description": "Lorem lorem lorem",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "link":""
     }
 ]
