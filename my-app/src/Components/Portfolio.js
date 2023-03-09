@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Portfolio() {
   const [portfolioData, setPortfolioData] = useState(data)
   return (
-<section>
+<section id='projects'>
     <Row xs={1} md={2} className="g-4">
         {data.map((item, idx) => (
           <Col key={idx}>
@@ -18,7 +18,7 @@ function Portfolio() {
         <Card.Text><p>
           {item.description}</p>
         </Card.Text>
-        <Card.Text> <a href='${item.link}' > Click Me</a> </Card.Text>
+        <Card.Text> <a href='${item.link}' ><i class="fa-brands fa-github fa-bounce" title="GitHub"></i> Click Me</a> </Card.Text>
       </Card.ImgOverlay>
     </Card>
     </Col>))}

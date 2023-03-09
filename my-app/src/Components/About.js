@@ -7,8 +7,11 @@ export default function About() {
       <h1 id='title'>About Me</h1>
       <div id='icon'>👩🏽‍💻</div>
       <p id='info'>
-        I am a fullstack web developer graduate from the UCF Bootcamp. I am currently
-        honing my skills in Javascript, React, MySQL, Express, and PWA. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet mi aliquam, dictum enim vel,
+            bibendum nunc. Suspendisse tempor dui a augue vestibulum, at feugiat magna bibendum. Proin suscipit elit vel
+            nulla laoreet vehicula. Integer in urna eu sapien vulputate pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet mi aliquam, dictum enim vel,
+            bibendum nunc. Suspendisse tempor dui a augue vestibulum, at feugiat magna bibendum. Proin suscipit elit vel
+            nulla laoreet vehicula. Integer in urna eu sapien vulputate pharetra.
       </p>
     </div>
   );
