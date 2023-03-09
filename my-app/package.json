@@ -2,6 +2,8 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tanglero4.github.io/my-app",
+
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",

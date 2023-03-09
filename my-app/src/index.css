@@ -14,7 +14,7 @@ code {
 .form{
   margin: 30px 50px;
 }
-a, #footerLink{
+a#footerLink{
   text-decoration: none;
 }
 #name{
@@ -42,6 +42,7 @@ a, #footerLink{
     margin-top: -50px;
       font-size: 14px;
       color:rgba(163, 177, 138);
+      text-align: center;
   }
   Div#icon{
     font-size: 100px;
@@ -58,9 +59,12 @@ a, #footerLink{
 #projects{
   margin:50px;
 }
-a#projectLink{
+a#projectLink, a.nav-link{
   text-decoration: none;
   color: rgba(52, 78, 65);
+}
+Div#title{
+  color:red;
 }
 #resume{
   font-size: 100px;
