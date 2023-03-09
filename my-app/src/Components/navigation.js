@@ -2,7 +2,9 @@ import React from 'react';
 
 function Navigation({ thisPage, tabChange }) {
   return (
+    <div id='nav'>
     <ul className="nav nav-tabs">
+    <h1 id='name'>Tiffany Anglero</h1>
       <li className="nav-item">
         <a
           href="#About"
@@ -25,7 +27,6 @@ function Navigation({ thisPage, tabChange }) {
         <a
           href="#contact"
           onClick={() => tabChange('Contact')}
-          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={thisPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
@@ -35,13 +36,13 @@ function Navigation({ thisPage, tabChange }) {
         <a
           href="#resume"
           onClick={() => tabChange('Resume')}
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={thisPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
           Resume
         </a>
       </li>
     </ul>
+    </div>
   );
 }
 

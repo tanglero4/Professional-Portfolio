@@ -6,9 +6,9 @@ import Button from 'react-bootstrap/Button';
 export default function Contact() {
   return (
     <div>
-      <h1>Contact Me</h1>
+      <h1 id='title'>Contact Me</h1>
 
-    <Form>
+    <Form className='form'>
     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
       <Form.Label>Name</Form.Label>
       <Form.Control type="text" placeholder="Name" />
