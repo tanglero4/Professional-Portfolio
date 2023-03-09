@@ -18,7 +18,7 @@ function Portfolio() {
         <Card.Text><p>
           {item.description}</p>
         </Card.Text>
-        <Card.Text> <a href='${item.link}' ><FontAwesomeIcon icon="fa-brands fa-github" ></FontAwesomeIcon></a> </Card.Text>
+        <Card.Text> <a href='${item.link}' > Click Me</a> </Card.Text>
       </Card.ImgOverlay>
     </Card>
     </Col>))}

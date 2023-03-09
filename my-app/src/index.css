@@ -54,3 +54,6 @@ a, #footerLink{
   font-size: 34px;
   color: rgba(218, 215, 205);
 }
+#projects{
+  margin:50px;
+}
