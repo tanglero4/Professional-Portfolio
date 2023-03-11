@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div className='footer'>
+    <div>
       <h1 id='title'>About Me</h1>
       <div id='icon'>👩🏽‍💻</div>
       <p id='info'>
