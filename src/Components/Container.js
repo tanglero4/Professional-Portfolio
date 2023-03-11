@@ -5,7 +5,7 @@ import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Header from './Header';
 import Navigation from './Navigation';
-
+import Footer from './Footer';
 
 export default function Container() {
   const [thisPage, setThisPage] = useState('About');
@@ -27,6 +27,7 @@ export default function Container() {
       <Navigation thisPage={thisPage} tabChange={tabChange} />
       <Header/>
       {showPage()}
+      <Footer/>
     </div>
   );
 }
